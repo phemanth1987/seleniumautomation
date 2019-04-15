@@ -29,7 +29,16 @@ public class Locators {
 		
 		//Identify Search field using name locator
 		//Syntax driver.
-		WebElement srch = driver.findElement(By.name("q"));
+		WebElement srch = driver.findElement(By.name("q")); //name='q'
+		
+		/*
+		 * driver.findElement(By.id("anyString")); id='anyString'
+		 * driver.findElements(By.tagName("td")); tagName='td'
+		 * driver.findElement(By.className("anyString")); id='anyString'
+		 * driver.findElement(By.linkText("anyString")); visibleText='anyString'
+		 */
+		
+		srch = driver.findElement(By.xpath("//div[contains(@class,'gb_c')]"));
 		
 		if(srch.isEnabled()) {
 			//Enter search string in the field

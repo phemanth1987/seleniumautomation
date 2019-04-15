@@ -19,4 +19,21 @@ Day 2:
 		LinkText
 		Partial LinkText
 		CSS Selector
-		XPath
+
+Day 3:
+	XPath
+
+
+
+<html>
+	<head></head>
+	<body>
+		<div>
+			<input>
+		</div>
+		.
+		.
+		.
+	</body>
+</html>
+
