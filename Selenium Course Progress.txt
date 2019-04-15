@@ -1,0 +1,22 @@
+http://newtours.demoaut.com/
+
+
+Day 1:
+	Introduction Selenium
+	Selenium WebDriver
+	First Selenium Script
+		How to create a driver
+		Instatiate it to a specific browser
+		driver.get(url), getTitle() and close()
+
+Day 2:
+	findElement(), findElements()\
+	Different Locators
+		ID
+		Name
+		Tagname
+		Classname
+		LinkText
+		Partial LinkText
+		CSS Selector
+		XPath
