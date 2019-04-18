@@ -23,17 +23,31 @@ Day 2:
 Day 3:
 	XPath
 
+Day 4: 
+	Findelement()
+	Findelements()
+		Using For loops to access each WebElement
+	TextBox and Buttons
+		sendkeys()
+		clear()
+		click()
+		submit()
 
-
-<html>
-	<head></head>
-	<body>
-		<div>
-			<input>
-		</div>
-		.
-		.
-		.
-	</body>
-</html>
-
+Day 5:
+	Checkboxes and Radio buttons
+		isSelected()
+		click()
+	DropDowns
+		Select class
+		selectbyVisibleText()	
+		selectbyIndex()
+		selectbyValue()
+		isMultiple()
+		getOptions()
+Day 6:
+	HyperLinks
+		linkText()
+		partialLinkText()
+	Mouse and Keyboard Events
+		Actions class
+		Action class
