@@ -61,4 +61,9 @@ Day 7:
 		switchTo().window(windowhandle)
 		getWindowHandle() - current window handle
 		getWindowHandles() - Set of window handles of all open Windows
+Day 8:
+	WebTable
+Day 9:
+	Working code for WebTable
+
 
