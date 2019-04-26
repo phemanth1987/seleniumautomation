@@ -65,5 +65,8 @@ Day 8:
 	WebTable
 Day 9:
 	Working code for WebTable
+Day 10:
+	ToolTip Validation
+	JavascriptExecutor 
 
 
