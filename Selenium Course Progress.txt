@@ -67,6 +67,15 @@ Day 9:
 	Working code for WebTable
 Day 10:
 	ToolTip Validation
-	JavascriptExecutor 
+	JavascriptExecutor
+Day 11:
+	CSS Selector
+	https://artoftesting.com/automationTesting/css-selector-in-selenium-webdriver.html
+Day12:
+	Waits
+	  Implicit Wait
+	  Explicit Wait
+
+
 
 

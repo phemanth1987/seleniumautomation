@@ -1,5 +1,7 @@
 package com.basic.main;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -18,6 +20,9 @@ public class TestBase {
 			System.setProperty("webdriver.gecko.driver", "src/test/resources/chromedriver.exe");
 			driver = new FirefoxDriver();
 		}
+		
+		//Adding Implicit Wait
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		//Maximize the browser Window
 		driver.manage().window().maximize();
