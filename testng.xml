@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumTests">
+  <parameter name="suite-param" value="suite level parameter" />
+  <!-- <test thread-count="5" name="ClassExample">
+    <classes>
+  		<class name="com.testng.tests.PriorityExample">
+  			<methods>
+  				<exclude name="c_test" />
+  			</methods>
+  		</class>
+  		<class name="com.testng.tests.BeforeAnnotationsExample" />  		
+  	</classes>
+  </test> 
+  <test thread-count="5" name="PackageExample">
+	  <packages>
+	  	<package name="com.testng.tests" />
+	  </packages>
+  </test>  -->
+  <test name="Parameter Test one">
+        <classes>
+            <class name="com.testng.tests.ParameterTest">
+                <methods>
+                    <include name="prameterTestOne" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Parameter Test two">
+        <!-- This parameter will be passed this test only -->
+        <parameter name="test-two-param" value="Test two parameter" />
+        <classes>
+            <class name="com.testng.tests.ParameterTest">
+                <methods>
+                    <include name="prameterTestTwo" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Parameter Test three">
+        <!-- Overriding suite level parameter -->
+        <parameter name="suite-param" value="overiding suite parameter" />
+        <!-- Test specific parameter -->
+        <parameter name="test-three-param" value="10" />
+        <classes>
+            <class name="com.testng.tests.ParameterTest">
+                <methods>
+                    <include name="prameterTestThree" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> <!-- SeleniumTraining -->

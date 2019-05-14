@@ -37,7 +37,7 @@ public class FirstSeleniumScript {
 		else
 			System.out.println("Test Failed!!");
 		
-		driver.close();
+		driver.quit();
 
 	}
 

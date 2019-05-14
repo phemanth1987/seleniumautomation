@@ -75,6 +75,22 @@ Day12:
 	Waits
 	  Implicit Wait
 	  Explicit Wait
+Day 13: 
+	TestNG
+	  SetUp
+	  FirstTestNG Testcase
+	  @Test
+Day 14:
+	Test Annotations
+	  Before and After annotations
+	Testng.xml
+	  Hierarchy
+	  Running Classes and packages
+Day 15:
+	Parametized Testcases using TestNG
+	  @Parameters and Testng.xml
+	  @DataProvider
+
 
 
 

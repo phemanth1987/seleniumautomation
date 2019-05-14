@@ -1,6 +1,8 @@
 package com.basic.tests;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.basic.main.TestBase;
 
@@ -18,9 +20,11 @@ public class WaitExamples extends TestBase {
 		 
 	   	 
 	    try {
+	    	WebDriverWait wait = new WebDriverWait(driver, 30);
+	    	wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("invalidString")));
 	    	//Trying to click on invalid element
-			//Identifying Login Button with CSS Class     Syntax .ClassValue
 			driver.findElement(By.id("invalidString")).click();
+			
 	    }catch(Exception e) {}
 			
 		

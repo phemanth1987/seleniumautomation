@@ -33,7 +33,7 @@ public class TestBase {
 	
 	
 	public static void cleanUp() {
-		driver.close();
+		driver.quit();
 	}
 	
 	
