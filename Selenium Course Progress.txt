@@ -90,6 +90,9 @@ Day 15:
 	Parametized Testcases using TestNG
 	  @Parameters and Testng.xml
 	  @DataProvider
+Day 16: Parallel Execution
+	  Using Testng.xml
+	  Using threadPolSize and invocationCount in @Test
 
 
 

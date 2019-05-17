@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumParallelTests" parallel = "tests" thread-count="2">
+   <test name="Parallel Test One">
+       <classes>
+            <class name="com.testng.tests.ParalleExecutionExample" />
+            <!-- <class name="com.testng.tests.PriorityExample" /> -->
+                        
+       </classes>
+    </test>
+    <test name="Parallel Test Two">
+       <classes>
+       		<!-- <class name="com.testng.tests.ParalleExecutionExample" /> -->
+            <class name="com.testng.tests.PriorityExample" />
+       </classes>
+    </test>
+</suite> <!-- SeleniumTraining -->
