@@ -93,6 +93,10 @@ Day 15:
 Day 16: Parallel Execution
 	  Using Testng.xml
 	  Using threadPolSize and invocationCount in @Test
+Day 17: 
+	Selenium Page Object Model(POM)
+	  Page Factory
+	  @FindBy annotation
 
 
 
